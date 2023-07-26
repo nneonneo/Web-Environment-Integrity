@@ -394,11 +394,13 @@ particular:
 [Implementers and other stakeholders may already have publicly stated positions on this work. We
 will list them here with links to evidence as appropriate.]
 
-- [Implementor A] : Positive
-- [Stakeholder B] : No signals
-- [Implementor C] : Negative
-
-[When appropriate, we will explain the reasons given by other implementers for their concerns.]
+- Mozilla: [Oppose](https://github.com/mozilla/standards-positions/issues/852#issuecomment-1648820747)
+    - "Mozilla opposes this proposal because it contradicts our principles and vision for the Web."
+- WebKit: [Pending](https://github.com/WebKit/standards-positions/issues/234)
+    - "We have Private Access Tokens (aka Privacy Pass) for some of the claimed use cases of this spec. We think it's a more privacy-respecting solution. The Explainer isn't very clear on why specifically Web Environment Integrity is better. It mentions a feedback mechanism, but not the specific mechanism. It also exposes more info to the page."
+    - "The Explainer claims this spec is necessary because Privacy Access Tokens don't support feedback from websites on false positives / false negatives, however, neither the spec nor the explainer include a feedback mechanism. Without more specifics, we would not be enthusiastic about duplicating an existing standards-track solution for the same use cases."
+- Vivaldi: [Oppose](https://vivaldi.com/blog/googles-new-dangerous-web-environment-integrity-spec/)
+    - "Why Vivaldi browser thinks Google’s new proposal, the Web-Environment-Integrity spec, is a major threat to the open web and should be pushed back."
 
 ## References & acknowledgements
 
